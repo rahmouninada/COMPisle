@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="google-signin-client_id"content="197627888254-79t5fadstnff25drop7n6agv41oufbm8.apps.googleusercontent.com">
+	<script async="" defer="defer" crossorigin="anonymous"src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=1706262639498621&autoLogAppEvents=1"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="loginSTYLE/images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/css/util.css">
+	<link rel="stylesheet" type="text/css" href="loginSTYLE/css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+		<div id="root"></div>
+	
+		<div id="fb-root"></div>
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('loginSTYLE/images/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-logo"> 
+						<img src="island.png" alt="IMG">
+					</span>
+
+					<span class="login100-form-title p-b-34 p-t-27">
+						Log in
+					</span>
+					<div class="container-login100-form-btn">
+						<div class="g-signin2" data-onsuccess="googleLogin" data-width="300"></div>
+
+						<div class="fb-login-button" data-onlogin="facebookLogin" data-width="300" data-size="large"
+							data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="true">
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!--===============================================================================================-->
+	<script src="loginSTYLE/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="loginSTYLE/vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="loginSTYLE/vendor/bootstrap/js/popper.js"></script>
+	<script src="loginSTYLE/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="loginSTYLE/vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="loginSTYLE/vendor/daterangepicker/moment.min.js"></script>
+	<script src="loginSTYLE/vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="loginSTYLE/vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="node_modules/axios/dist/axios.js"></script>
+	<script src="login.js"></script>
+
+
+</body>
+
+</html>

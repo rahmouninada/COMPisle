@@ -1,0 +1,59 @@
+{
+  "authors": [
+    {
+      "number": 110,
+      "professor": "Kristopher Jordan",
+      "image": "https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"
+    },
+    {
+      "number": 283,
+      "professor": "Jack Snoeyink",
+      "image": "https://cs.unc.edu/wp-content/blogs.dir/130/files/2013/12/snoeyink-2-wpcf_117x176.jpeg"
+    },
+    {
+      "number": 290,
+      "professor": "Kristopher Jordan",
+      "image": "https://cs.unc.edu/wp-content/blogs.dir/130/files/2015/08/kris_jordan-wpcf_120x176.jpg"
+    },
+    {
+      "number": 401,
+      "professor": "Ketan Mayer-Patel",
+      "image": "/kmp.JPG"
+    },
+    {
+      "number": 410,
+      "professor": "Paul Stotts",
+      "image": "http://www.cs.unc.edu/~stotts/ISIS/pix/self5.jpeg"
+    },
+    {
+      "number": 411,
+      "professor": "Montek Singh",
+      "image": "https://www.cs.unc.edu/~montek/images/100_5473.JPG"
+    },
+    {
+      "number": 426,
+      "professor": "Ketan Mayer-Patel",
+      "image": "/kmp.JPG"
+    },
+    {
+      "number": 431,
+      "professor": "Jasleen Kaur",
+      "image": "http://www.cs.unc.edu/~jasleen/kaur3-cropped.jpg"
+    },
+    {
+      "number": 455,
+      "professor": "David Plaisted",
+      "image": "https://cs.unc.edu/files/2013/12/plaisted.jpeg"
+    },
+    {
+      "number": 521,
+      "professor": "Leonard McMillan",
+      "image": "https://cs.unc.edu/files/2013/12/mcmillan.jpeg"
+    },
+    {
+      "number": 550,
+      "professor": "David Plaisted",
+      "image": "https://cs.unc.edu/files/2013/12/plaisted.jpeg"
+    }
+  ]
+}

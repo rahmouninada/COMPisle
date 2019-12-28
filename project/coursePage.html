@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id"content="197627888254-79t5fadstnff25drop7n6agv41oufbm8.apps.googleusercontent.com">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+        </div>
+
+        <div class="navbar-menu">
+                <div style="width: 200px; height: 70px" class="navbar-start">
+                    <a href="index.html">
+                        <img style="width: 100%; height: 100%;" src="/logo.png" alt="Image">
+                    </a>
+                </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <img id="profileicon" src="/myprofile.png">
+                    </a>
+
+                    <div class="navbar-dropdown">
+
+                        <a class="navbar-item" id="logout">
+                            Logout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="top"></div>
+    <div id="root"></div>
+
+    <div class="display"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script src="coursePage.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+</body>
+</html>
